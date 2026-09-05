@@ -14,4 +14,6 @@ jobs:
         uses: flet-dev/flet-build-action@v1
         with:
           target: apk
+          project-dir: .
+          main-path: main.py
           runner-python-version: "3.11"
